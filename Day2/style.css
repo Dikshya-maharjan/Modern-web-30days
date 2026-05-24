@@ -1,26 +1,36 @@
-
-body{
-    background-color:aliceblue;
+/* Base body styling */
+body {
+    background-color: aliceblue;
     font-family: 'Courier New', Courier, monospace;
 }
-p{
+
+/* Paragraph styling */
+p {
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
 }
+
+/* Light background with dark text */
 header {
     background: #e6e6ff;
     color: #1a237e;
 }
+
+/* Dark background with light text */
 main {
     background: #121212;
     color: #ffffff;
 }
+
+/* Soft neutral color scheme */
 section {
     background: #e8f5e9;
     color: #1b1b1b;
 }
-footer{
+
+/* Neutral footer styling */
+footer {
     background-color: rgb(223, 220, 220);
     color: rgb(7, 0, 0);
 }
