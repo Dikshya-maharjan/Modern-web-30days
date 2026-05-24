@@ -1,3 +1,4 @@
+
 body{
     background-color:aliceblue;
     font-family: 'Courier New', Courier, monospace;
@@ -7,19 +8,19 @@ p{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
 }
-header{
-    background-color: rgb(9, 9, 50);
-    color:white;
+header {
+    background: #e6e6ff;
+    color: #1a237e;
 }
-main{
-    background-color: rgb(132, 5, 5);
-    color: aliceblue;
+main {
+    background: #121212;
+    color: #ffffff;
 }
-section{
-    background-color: green;
-    color: white;
+section {
+    background: #e8f5e9;
+    color: #1b1b1b;
 }
 footer{
-    background-color: grey;
-    color: white;
+    background-color: rgb(223, 220, 220);
+    color: rgb(7, 0, 0);
 }
