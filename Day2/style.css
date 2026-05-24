@@ -2,6 +2,7 @@
 body {
     background-color: aliceblue;
     font-family: 'Courier New', Courier, monospace;
+    margin: 0;
 }
 
 /* Paragraph styling */
@@ -15,22 +16,30 @@ p {
 header {
     background: #e6e6ff;
     color: #1a237e;
+    margin:10px;
+    padding: 10px;
 }
 
 /* Dark background with light text */
 main {
     background: #121212;
     color: #ffffff;
+    margin:15px;
+    padding: 15px;
 }
 
 /* Soft neutral color scheme */
 section {
     background: #e8f5e9;
     color: #1b1b1b;
+    margin: 20px;
+    padding: 20px;
 }
 
 /* Neutral footer styling */
 footer {
     background-color: rgb(223, 220, 220);
     color: rgb(7, 0, 0);
+    margin:5px;
+    padding: 5px;
 }
