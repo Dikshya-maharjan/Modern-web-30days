@@ -1,197 +1,323 @@
 <!DOCTYPE html>
-<!-- Tells the browser to use modern HTML standards (HTML5) -->
+<!-- Tells browser to use HTML5 -->
+
 <html lang="en">
-    <!-- The root element of the page & lang helps accessibility tools and search engines -->
+<!-- Root element of HTML document & language is English -->
+
 <head>
+    <!-- Stores metadata and page information -->
+
     <meta charset="UTF-8">
+    <!-- Supports all characters and symbols -->
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Makes webpage responsive on all devices -->
+
     <meta name="description" content="HTML basic structure practice project">
-    <title><title>HTML Basics Practice | 30 Days Web</title></title>
+    <!-- Short description of webpage for search engines -->
+
+    <title>HTML Basics Practice | 30 Days Web</title>
+    <!-- Title shown on browser tab -->
 </head>
+
 <body>
-    <!-- test commit update -->
+    <!-- Contains all visible webpage content -->
+
+    <!-- Header section -->
     <header>
         <h1>Hello World!</h1>
         <p>This page contains HTML Basic Structure</p>
     </header>
+
+    <!-- Navigation links section -->
     <nav>
         <a href="#">Home</a>
         <a href="#">HTML</a>
         <a href="#">CSS</a>
         <a href="#">JS</a>
     </nav>
+
+    <!-- Main content area -->
     <main id="main">
         <h1>This is main tag</h1>
         <h2>HTML->CSS->JS IN 30 DAYS</h2>
+
+        <!-- Paragraph tag -->
         <p>This is paragraph tag</p>
+
+        <!-- Line break using br -->
         <p>Break line using br tag</p>
+
+        <!-- Bold text -->
         <b>This is bold tag</b><br>
+
+        <!-- Italic text -->
         <i>This is italic tag</i>
     </main>
+
+    <!-- Section tag groups related content -->
     <section>
         <h1>section tag is used for Grouped content</h1>
         <h2>This is heading 2</h2>
         <h3>This is heading 3</h3>
         <h4>This is heading 4</h4>
     </section>
-   <section>
-    <h2>Anchor Tags</h2>
-    <a href="https://github.com/Dikshya-maharjan/Modern-web-30days">View my Github repository</a>
-    <h3>Anker Tag using target=_blank</h3>
-    <a href="https://github.com/Dikshya-maharjan/Modern-web-30days" target="_blank" rel="noopener">Blank Page with Anchor Tag</a>
-    <h3>Anker Tag using id </h3>
-    <a href="#main">Go to main</a>
-   </section>
-  <section>
-  <b>This is unordered list <i>Default type is bullet points</i></b>
-<p>3 types of ul: disc, circle, square</p>
 
-<ul>
-    <li>HTML</li>
-    <li>CSS</li>
-    <li>JavaScript</li>
+    <!-- Anchor tag examples -->
+    <section>
+        <h2>Anchor Tags</h2>
 
-    <li>Unordered List Types in nested
-        <ul type="disc">
-            <li>This is disc type</li>
+        <!-- External link -->
+        <a href="https://github.com/Dikshya-maharjan/Modern-web-30days">
+            View my Github repository
+        </a>
+
+        <h3>Anchor Tag using target=_blank</h3>
+
+        <!-- Opens link in new tab -->
+        <a href="https://github.com/Dikshya-maharjan/Modern-web-30days"
+           target="_blank"
+           rel="noopener">
+           Blank Page with Anchor Tag
+        </a>
+
+        <h3>Anchor Tag using id</h3>
+
+        <!-- Internal page navigation -->
+        <a href="#main">Go to main</a>
+    </section>
+
+    <!-- Unordered and Ordered List section -->
+    <section>
+
+        <!-- Unordered list -->
+        <b>This is unordered list <i>Default type is bullet points</i></b>
+
+        <p>3 types of ul: disc, circle, square</p>
+
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+
+            <!-- Nested unordered lists -->
+            <li>Unordered List Types in nested
+
+                <ul type="disc">
+                    <li>This is disc type</li>
+                </ul>
+
+                <ul type="circle">
+                    <li>This is circle type</li>
+                </ul>
+
+                <ul type="square">
+                    <li>This is square type</li>
+                </ul>
+
+            </li>
         </ul>
 
-        <ul type="circle">
-            <li>This is circle type</li>
-        </ul>
+        <!-- Ordered list -->
+        <b>This is ordered list <i>Default type is numbers</i></b>
 
-        <ul type="square">
-            <li>This is square type</li>
-        </ul>
-    </li>
-</ul>
-    <b>This is ordered list <i>Default type is numbers</i></b>
-<p>Types: numbers, alphabets, roman numbers</p>
+        <p>Types: numbers, alphabets, roman numbers</p>
 
-<ol>
-    <li>HTML</li>
-    <li>CSS</li>
-    <li>JavaScript</li>
+        <ol>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
 
-    <li>Ordered List Types
-        <ol type="1">
-            <li>Default number type</li>
+            <!-- Nested ordered lists -->
+            <li>Ordered List Types
+
+                <ol type="1">
+                    <li>Default number type</li>
+                </ol>
+
+                <ol type="A">
+                    <li>Uppercase Alphabets</li>
+                </ol>
+
+                <ol type="a">
+                    <li>Lowercase Alphabets</li>
+                </ol>
+
+                <ol type="I">
+                    <li>Uppercase Roman numbers</li>
+                </ol>
+
+                <ol type="i">
+                    <li>Lowercase Roman numbers</li>
+                </ol>
+
+            </li>
         </ol>
+    </section>
 
-        <ol type="A">
-            <li>Uppercase Alphabets</li>
-        </ol>
+    <!-- Form section -->
+    <section>
+        <h2>Basic Form Pattern</h2>
 
-        <ol type="a">
-            <li>Lowercase Alphabets</li>
-        </ol>
+        <!-- Form for user input -->
+        <form>
 
-        <ol type="I">
-            <li>Uppercase Roman numbers</li>
-        </ol>
+            <!-- Text input -->
+            <label>Name:</label>
+            <input type="text"
+                   name="Name"
+                   placeholder="Enter your name"
+                   id="name">
 
-        <ol type="i">
-            <li>Lowercase Roman numbers</li>
-        </ol>
-    </li>
-</ol>
-  </section>
-  <section>
-    <h2>Basic Form Pattern</h2>
-    <form>
-        <label>Name:</label>
-        <input type="text" name="Name" placeholder="Enter your name" id="name"><br><br>
-        <label>Phone Number:</label>
-        <input type="tel" name="number" placeholder="Phone Number" id="phone"><br><br>
-        <label>Password:</label>
-        <input type="password" name="password" placeholder="Enter your password" id="password"><br><br>
-        <button type="submit">Submit</button>
-    </form>
-  </section>
-  <section>
-    <h2>Simple table structure</h2>
-    <p>Without border</p>
-    <table>
-        <tr>
-            <th>Name</th>
-            <th>Phone Number</th>
-            <th>HTML</th>
-            <th>CSS</th>
-            <th>JavaScript</th>
-        </tr>
-        <tr>
-            <td>Dikshya</td>
-            <td>98000000</td>
-            <td>Structure</td>
-            <td>Design</td>
-            <td>Behavior</td>
-        </tr>
-          <tr>
-            <td>Dikshya</td>
-            <td>98000000</td>
-            <td>Structure</td>
-            <td>Design</td>
-            <td>Behavior</td>
-        </tr>
-       
-       
-    </table>
-    <p>With border</p>
-    <table border="1">
-        <tr>
-            <th>Name</th>
-            <th>Phone Number</th>
-            <th>HTML</th>
-            <th>CSS</th>
-            <th>JavaScript</th>
-        </tr>
-        <tr>
-            <td>Dikshya</td>
-            <td>98000000</td>
-            <td>Structure</td>
-            <td>Design</td>
-            <td>Behavior</td>
-        </tr>
-          <tr>
-            <td>Dikshya</td>
-            <td>98000000</td>
-            <td>Structure</td>
-            <td>Design</td>
-            <td>Behavior</td>
-        </tr>
-    </table>
-  </section>
-        <section>
-         <h2>
-             Image Section
-         </h2> 
-         <b>Image shown using img tag with photo link address</b>
-         <br>
-         <img src="https://www.mamp.one/wp-content/uploads/2024/09/image-resources2.jpg" alt="Sample Image">
-         <br>
-         <b>Image shown using img tag with local photo</b>
-         <br>
-         <img src="Images/images.jpg" alt="Cat image Selfie">
-         
-        </section>
-        <article>
-            <h2>Article Title</h2>
-            <p>This section contains article tag</p>
-        </article>
-<article>
-            <h2>Article Title</h2>
-            <p>Article tag is independent and can stand alone</p>
-        </article>
-        <aside>
-            <p>This is sidebar content using aside tag</p>
-        </aside>
-        <aside>
-            <h2>What is aside tag</h2>
-            <p>Extra/side information</p>
-        </aside>
-     
+            <br><br>
+
+            <!-- Phone number input -->
+            <label>Phone Number:</label>
+            <input type="tel"
+                   name="number"
+                   placeholder="Phone Number"
+                   id="phone">
+
+            <br><br>
+
+            <!-- Password input -->
+            <label>Password:</label>
+            <input type="password"
+                   name="password"
+                   placeholder="Enter your password"
+                   id="password">
+
+            <br><br>
+
+            <!-- Submit button -->
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <!-- Table section -->
+    <section>
+
+        <h2>Simple table structure</h2>
+
+        <!-- Table without border -->
+        <p>Without border</p>
+
+        <table>
+
+            <!-- Table row -->
+            <tr>
+
+                <!-- Table headings -->
+                <th>Name</th>
+                <th>Phone Number</th>
+                <th>HTML</th>
+                <th>CSS</th>
+                <th>JavaScript</th>
+            </tr>
+
+            <!-- Table data row -->
+            <tr>
+                <td>Dikshya</td>
+                <td>98000000</td>
+                <td>Structure</td>
+                <td>Design</td>
+                <td>Behavior</td>
+            </tr>
+
+            <tr>
+                <td>Dikshya</td>
+                <td>98000000</td>
+                <td>Structure</td>
+                <td>Design</td>
+                <td>Behavior</td>
+            </tr>
+
+        </table>
+
+        <!-- Table with border -->
+        <p>With border</p>
+
+        <table border="1">
+
+            <tr>
+                <th>Name</th>
+                <th>Phone Number</th>
+                <th>HTML</th>
+                <th>CSS</th>
+                <th>JavaScript</th>
+            </tr>
+
+            <tr>
+                <td>Dikshya</td>
+                <td>98000000</td>
+                <td>Structure</td>
+                <td>Design</td>
+                <td>Behavior</td>
+            </tr>
+
+            <tr>
+                <td>Dikshya</td>
+                <td>98000000</td>
+                <td>Structure</td>
+                <td>Design</td>
+                <td>Behavior</td>
+            </tr>
+
+        </table>
+    </section>
+
+    <!-- Image section -->
+    <section>
+
+        <h2>Image Section</h2>
+
+        <!-- Image using online image link -->
+        <b>Image shown using img tag with photo link address</b>
+
+        <br>
+
+        <img src="https://www.mamp.one/wp-content/uploads/2024/09/image-resources2.jpg"
+             alt="Sample Image">
+
+        <br>
+
+        <!-- Image using local folder -->
+        <b>Image shown using img tag with local photo</b>
+
+        <br>
+
+        <img src="Images/images.jpg"
+             alt="Cat image Selfie">
+
+    </section>
+
+    <!-- Article section -->
+    <article>
+        <h2>Article Title</h2>
+        <p>This section contains article tag</p>
+    </article>
+
+    <!-- Independent article -->
+    <article>
+        <h2>Article Title</h2>
+        <p>Article tag is independent and can stand alone</p>
+    </article>
+
+    <!-- Sidebar content -->
+    <aside>
+        <p>This is sidebar content using aside tag</p>
+    </aside>
+
+    <!-- Extra information section -->
+    <aside>
+        <h2>What is aside tag</h2>
+        <p>Extra/side information</p>
+    </aside>
+
+    <!-- Footer section -->
     <footer>
         <p>Day 1 of WebDesign Practice</p>
     </footer>
+
 </body>
 </html>
