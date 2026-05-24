@@ -3,6 +3,9 @@ body {
     background-color: aliceblue;
     font-family: 'Courier New', Courier, monospace;
     margin: 0;
+    /* margin is space outside an element */
+    padding: 0;
+    /* padding is space inside an element */
 }
 
 /* Paragraph styling */
@@ -12,7 +15,7 @@ p {
     font-weight: bold;
 }
 
-/* Light background with dark text */
+/* Light background with dark text with margin and padding 10px and center text-align*/
 header {
     background: #e6e6ff;
     color: #1a237e;
@@ -21,7 +24,7 @@ header {
     text-align: center;
 }
 
-/* Dark background with light text */
+/* Dark background with light text with left text-align */
 main {
     background: #121212;
     color: #ffffff;
@@ -30,7 +33,7 @@ main {
     text-align: left;
 }
 
-/* Soft neutral color scheme */
+/* Soft neutral color scheme  with right text-align*/
 section {
     background: #e8f5e9;
     color: #1b1b1b;
