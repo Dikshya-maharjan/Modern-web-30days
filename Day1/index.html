@@ -1,9 +1,12 @@
 <!DOCTYPE html>
+<!-- Tells the browser to use modern HTML standards (HTML5) -->
 <html lang="en">
+    <!-- The root element of the page & lang helps accessibility tools and search engines -->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML BASIC</title>
+    <meta name="description" content="HTML basic structure practice project">
+    <title><title>HTML Basics Practice | 30 Days Web</title></title>
 </head>
 <body>
     <!-- test commit update -->
@@ -40,54 +43,58 @@
     <a href="#main">Go to main</a>
    </section>
   <section>
-    <b>This is unordered list <i>Default type is bullet points</i></b>
-    <p>3 types of ul:<br>disc,<br>circle,<br>square</p>
+  <b>This is unordered list <i>Default type is bullet points</i></b>
+<p>3 types of ul: disc, circle, square</p>
 
+<ul>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JavaScript</li>
 
-    <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
-        <li>Unordered List Types in nested 
+    <li>Unordered List Types in nested
+        <ul type="disc">
+            <li>This is disc type</li>
+        </ul>
 
-            <ul type="disc">
-                <li>This is disc type</li>
-            </ul>
-            <ul type="circle">
-             <li>This is circle type</li>
-             </ul>
-            <ul type="square">
-                <li>This is square type</li>
-            </ul>
-        </li>
-    </ul>
-    <b>This is ordered list <i>Default type is number(1,2,3...)</i></b>
-    <p>5 types of ol:<br>Numbers(1,2,3..),<br>Alphabets(Uppercase & Lowercase),<br>Roman Numbers(Uppercase & Lowercase</p>
-    <ol>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
-        <li>Ordered List Types in nested 
+        <ul type="circle">
+            <li>This is circle type</li>
+        </ul>
 
-            <ol type="1">
-                <li>This is default type number</li>
-            </ol>
-            <ol type="A">
-                <li>This is uppercase Alphabets type</li>
-                <ol type="a">
-                    <li>This is lowercase alphabets type</li>
-                </ol>
-            </ol>
-            <ol type="I">
-                <li>This is uppercase Roman Number</li>
-                <li>Roman Number</li>
-                <ol type="i">
-                <li>This is lowercase Roman Number</li>
-                <li>roman number</li>
-                </ol>
-            </ol>
-        </li>
+        <ul type="square">
+            <li>This is square type</li>
+        </ul>
+    </li>
+</ul>
+    <b>This is ordered list <i>Default type is numbers</i></b>
+<p>Types: numbers, alphabets, roman numbers</p>
+
+<ol>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JavaScript</li>
+
+    <li>Ordered List Types
+        <ol type="1">
+            <li>Default number type</li>
         </ol>
+
+        <ol type="A">
+            <li>Uppercase Alphabets</li>
+        </ol>
+
+        <ol type="a">
+            <li>Lowercase Alphabets</li>
+        </ol>
+
+        <ol type="I">
+            <li>Uppercase Roman numbers</li>
+        </ol>
+
+        <ol type="i">
+            <li>Lowercase Roman numbers</li>
+        </ol>
+    </li>
+</ol>
   </section>
   <section>
     <h2>Basic Form Pattern</h2>
@@ -95,7 +102,7 @@
         <label>Name:</label>
         <input type="text" name="Name" placeholder="Enter your name" id="name"><br><br>
         <label>Phone Number:</label>
-        <input type="number" name="number" placeholder="Phone Number" id="phone"><br><br>
+        <input type="tel" name="number" placeholder="Phone Number" id="phone"><br><br>
         <label>Password:</label>
         <input type="password" name="password" placeholder="Enter your password" id="password"><br><br>
         <button type="submit">Submit</button>
@@ -133,7 +140,7 @@
     <table border="1">
         <tr>
             <th>Name</th>
-            <th>Phone Number</thh
+            <th>Phone Number</th>
             <th>HTML</th>
             <th>CSS</th>
             <th>JavaScript</th>
@@ -152,8 +159,6 @@
             <td>Design</td>
             <td>Behavior</td>
         </tr>
-       
-       
     </table>
   </section>
         <section>
@@ -166,7 +171,7 @@
          <br>
          <b>Image shown using img tag with local photo</b>
          <br>
-         <img src="Images/images.jpg" alt="Selfie Cat">
+         <img src="Images/images.jpg" alt="Cat image Selfie">
          
         </section>
         <article>
