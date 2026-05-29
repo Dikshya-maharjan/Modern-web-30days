@@ -3,9 +3,9 @@ body {
     background-color: aliceblue;
     font-family: 'Courier New', Courier, monospace;
     margin: 0;
-    /* margin is space outside an element */
+    /* margin is space outsclasse an element */
     padding: 0;
-    /* padding is space inside an element */
+    /* padding is space insclasse an element */
 }
 
 /* Paragraph styling */
