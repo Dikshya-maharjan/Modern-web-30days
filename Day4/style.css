@@ -1,14 +1,10 @@
-/* 
-   MAIN CONTAINER
- */
+/* MAIN CONTAINER */
 .main{
     width: 800px;
     margin: auto;
 }
 
-/* 
-   HEADER SECTION
- */
+/* HEADER */
 header{
     background-color: #e6e6ff;
     padding: 10px;
@@ -16,88 +12,89 @@ header{
     text-align: center;
 }
 
-/* 
-   MAIN LAYOUT
- */
+/* MAIN */
 main{
     padding: 20px;
     background-color: #f5f5f5;
     border: 2px solid #ccc;
 }
 
-/* 
-   NORMAL FLOW SECTION
- */
-.normal{
-    background-color: #e8f5e9;
-    padding: 10px;
-    margin-bottom: 10px;
-}
-
-/* 
-   BLOCK LEVEL SECTION
- */
-.block-level{
-    background-color: #fff3e0;
-    padding: 10px;
-    margin-bottom: 10px;
-    border-left: 5px solid orange;
-}
-
-/* 
-   INLINE ELEMENTS SECTION
- */
+/* SECTIONS */
+.normal,
+.block-level,
 .inline-elements{
-    background-color: #e3f2fd;
     padding: 10px;
     margin-bottom: 10px;
 }
 
+/* COLORS */
+.normal{ background-color: #e8f5e9; }
+.block-level{ background-color: #fff3e0; border-left: 5px solid orange; }
+.inline-elements{ background-color: #e3f2fd; }
+
+/* INLINE highlight */
 .inline-elements span{
     background-color: yellow;
 }
 
-/* 
-   INLINE BLOCK CARD (SINGLE)
- */
-.card{
-    display: inline-block;
-    width: 100%;
-    padding: 15px;
-    background-color: #fce4ec;
-    border: 2px solid #d81b60;
-    margin-top: 10px;
-}
-
-/* 
-   MULTIPLE CARDS CONTAINER
- */
-.multiple-card{
-    width: 100%;
-    margin-left:-15px;
-    padding: 15px;
-    background-color: #e3f2fd;
-    border: 1px solid black;
-
-    font-size: 0; /* removes inline-block spacing issue */
-}
-
-/* 
-   CARDS (FIXED ALIGNMENT)
- */
+/* CARD SYSTEM */
 .card-one,
 .card-two,
 .card-third{
     display: inline-block;
-    width: 28%;
-    vertical-align: top;   /* ⭐ THIS FIXES LEVEL ALIGNMENT */
-    
+    width: 27%;
+    vertical-align: top;
     padding: 20px;
     margin: 10px;
-    
     background-color: #fff3e0;
     border: 1px solid black;
-
     box-sizing: border-box;
     font-size: 16px;
+}
+
+/* DISPLAY SECTION */
+.display-section{
+    background-color: #fce4ec;
+    width: 100%;
+    border: 2px solid black;
+    margin: 5px;
+    padding: 10px;
+}
+
+.display-section i{
+    background-color: #edb0b0;
+    display: inline-block;
+    margin: 10px 0;
+
+}
+
+/* DISPLAY TYPES */
+.inline{
+    background-color: lightcyan;
+    display: inline;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    height: 10vh;
+    
+}
+
+.display-section a{
+    background-color: lightyellow;
+    display: block;
+    border: 1px solid black;
+        padding: 10px;
+          margin: 10px;
+    height: 10vh;
+
+}
+
+.display-section section{
+    background-color: beige;
+    display: inline-block;
+    border: 1px solid black;
+        padding: 10px;
+
+          margin: 10px;
+    height: 10vh;
 }
