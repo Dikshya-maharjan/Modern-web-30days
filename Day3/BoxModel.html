@@ -6,63 +6,123 @@
     <title>Margin,Padding,border,content</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <!-- add padding to heading -->
-    <header style="padding:10px;border: 2px solid black;">
-        
-        <h1>Welcome to 3rd day of Modern Web Design</h1>
-        <h2>Day3-4 parts of Box Model</h2>
-    </header>
-        <!-- add padding to main -->
-    <main style="padding:20px;background-color: aliceblue;border:2px solid red;">
-        <h1>Padding</h1>
-        <i>The part with aliceblue color is main section</i>
-        <ul>
-            <li>Content — text or image</li>
-            <li>Padding — space inside the element</li>
-            <li>Border — outline around the element</li>
-            <li> Margin — space outside the element</li>
-        </ul>
-    
-        <!-- add padding to padding -->
-    <section style="padding: 15px;background-color:lightblue;border:3px solid pink;">
-        <i>The part with lightblue color is section</i><br>
-        <h3>Padding Sides</h3>
-            <ol>
-                <li>paddingtop</li>
-                <li>paddingbottom</li>
-                <li>paddingright</li>
-                <li>paddingleft</li>
-            </ol>
-            <h2>Individual Padding</h2>
-        <p id="top" style="padding-top: 10px; background-color: antiquewhite;width: 150px; height: 10vh">This is paddingtop</p>
-        <p id="bottom" style="padding-bottom: 10px; background-color: beige;width: 150px; height: 10vh">This is paddingbottom</p>
-        <p id="right" style="padding-right:25px; background-color: crimson; color: white;width: 150px; height: 10vh">This is paddingright</p>
-        <p id="left" style="padding-left:20px; background-color: darkblue; color: white;width: 150px; height: 10vh">This is paddingleft</p>
-        <h2>Shorthand Padding</h2>   
-       <p id="top" style="padding: 10px; background-color: antiquewhite;width: 150px; height: 10vh">All side padding</p>
-        <p id="bottom" style="padding: 10px 20px; background-color: beige;width: 150px; height: 10vh">top/bottom, left/right padding</p>
-        <p id="right" style="padding:10px 20px 25px; background-color: crimson; color: white;width: 150px; height: 10vh">top, left/right, bottom padding</p>
-        <p id="left" style="padding:20px 10px 20px 10px; background-color: darkblue; color: white;width: 150px; height: 10vh">top,right, bottom,left padding</p>
-        <section>
 
-    <h1>Margin</h1>
-    <i>Creates space between elements</i>
-    <section>
-        <p style="margin:2px;background-color: azure;">Adding margin just little bit</p>
-        <p style="margin:100px;background-color: azure;">Adding margin too much</p>
-        <p style="margin:10px;background-color: azure;">Adding margin </p>
-    </section>
-    <h1>Border</h1>
-    <i>helps visualize box</i>
-    <section id="box-section">
-        <p>This is box-section</p>
-    </section>
-</main>
-    <!-- add padding to footer -->
-<footer style="padding: 5px;margin: 5px;border:2px solid black;">
+<body>
+    <div class="main">
+
+        <!-- add padding to heading -->
+        <header style="padding:10px;border: 2px solid black;" id="header">
+
+            <h1>Welcome to 3rd day of Modern Web Design</h1>
+            <h2>Day3-4 parts of Box Model</h2>
+
+        </header>
+
+        <!-- add padding to main -->
+        <main style="padding:20px;background-color: aliceblue;border:2px solid red;" id="sub-main">
+
+            <h1>Padding</h1>
+
+            <i>The part with aliceblue color is main section</i>
+
+            <ul>
+                <li>Content — text or image</li>
+                <li>Padding — space inside the element</li>
+                <li>Border — outline around the element</li>
+                <li> Margin — space outside the element</li>
+            </ul>
+
+            <!-- add padding to padding -->
+            <section style="padding: 15px;background-color:lightblue;border:3px solid pink;" id="padding-section">
+
+                <i>The part with lightblue color is section</i>
+
+                <h3>Padding Sides</h3>
+
+                <ol>
+                    <li>paddingtop</li>
+                    <li>paddingbottom</li>
+                    <li>paddingright</li>
+                    <li>paddingleft</li>
+                </ol>
+
+                <h2>Individual Padding</h2>
+
+                <p id="top" style="padding-top: 10px; background-color: antiquewhite;width: 150px; height: 10vh">
+                    This is paddingtop
+                </p>
+
+                <p id="bottom" style="padding-bottom: 10px; background-color: beige;width: 150px; height: 10vh">
+                    This is paddingbottom
+                </p>
+
+                <p id="right" style="padding-right:25px; background-color: crimson; color: white;width: 150px; height: 10vh">
+                    This is paddingright
+                </p>
+
+                <p id="left" style="padding-left:20px; background-color: darkblue; color: white;width: 150px; height: 10vh">
+                    This is paddingleft
+                </p>
+
+                <h2>Shorthand Padding</h2>
+
+                <p id="top" style="padding: 10px; background-color: antiquewhite;width: 150px; height: 10vh">
+                    All side padding
+                </p>
+
+                <p id="bottom" style="padding: 10px 20px; background-color: beige;width: 150px; height: 10vh">
+                    top/bottom, left/right padding
+                </p>
+
+                <p id="right" style="padding:10px 20px 25px; background-color: crimson; color: white;width: 150px; height: 10vh">
+                    top, left/right, bottom padding
+                </p>
+
+                <p id="left" style="padding:20px 10px 20px 10px; background-color: darkblue; color: white;width: 150px; height: 10vh">
+                    top,right, bottom,left padding
+                </p>
+
+            </section>
+
+            <h1>Margin</h1>
+
+            <i>Creates space between elements</i>
+
+            <section id="margin-section">
+
+                <p style="margin:2px;background-color: azure;">
+                    Adding margin just little bit
+                </p>
+
+                <p style="margin:100px;background-color: azure;">
+                    Adding margin too much
+                </p>
+
+                <p style="margin:10px;background-color: azure;">
+                    Adding margin
+                </p>
+
+            </section>
+
+            <h1>Border</h1>
+
+            <i>helps visualize box</i>
+
+            <section id="box-section">
+
+                <p>This is box-section</p>
+
+            </section>
+
+        </main>
+
+        <!-- add padding to footer -->
+        <footer style="padding: 5px;margin: 5px;border:2px solid black;" id="footer">
+
             <p>Modern-web-30days by Dikshya</p>
+
         </footer>
-</body>
+
+    </div>
 </body>
 </html>
