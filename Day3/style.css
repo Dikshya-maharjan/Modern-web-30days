@@ -1,28 +1,95 @@
-header {
-    background: #e6e6ff;
-    color: #1a237e;
-    padding: 10px;
-    text-align: center;
-}
-footer {
-    background-color: rgb(223, 220, 220);
-    color: rgb(7, 0, 0);
-    padding: 5px;
-    text-align: center;
+/* 
+   HEADER STYLE
+ */
+header{
+    padding:10px;
+    border:2px solid black;
 }
 
-#box-section{
-    border: 1px solid black;
-    box-sizing: border-box;
+/* 
+   MAIN SECTION STYLE
+ */
+main{
+    padding:20px;
+    background-color: aliceblue;
+    border:2px solid red;
 }
-#header{
-    box-sizing: border-box;
 
+/* 
+   PADDING SECTION BOX
+ */
+#padding-section{
+    padding:15px;
+    background-color: lightblue;
+    border:3px solid pink;
 }
-.main{
-    width: 800px;
-    margin: auto;
+
+/* 
+   INDIVIDUAL PADDING BOXES
+ */
+
+/* Top padding example */
+#top{
+    padding-top:10px;
+    background-color: antiquewhite;
+    width:150px;
+    height:10vh;
 }
-#sub-main{
-    margin-bottom: 30px;
+
+/* Bottom padding example */
+#bottom{
+    padding-bottom:10px;
+    background-color: beige;
+    width:150px;
+    height:10vh;
+}
+
+/* Right padding example */
+#right{
+    padding-right:25px;
+    background-color: crimson;
+    color:white;
+    width:150px;
+    height:10vh;
+}
+
+/* Left padding example */
+#left{
+    padding-left:20px;
+    background-color: darkblue;
+    color:white;
+    width:150px;
+    height:10vh;
+}
+
+/* 
+   MARGIN UTILITIES
+ */
+
+/* Small margin */
+.m-small{
+    margin:2px;
+    background-color: azure;
+}
+
+/* Medium margin */
+.m-medium{
+    margin:100px;
+    background-color: azure;
+}
+
+/* Normal margin */
+.m-normal{
+    margin:10px;
+    background-color: azure;
+}
+
+/* 
+   FOOTER STYLE
+ */
+footer{
+    background-color: gainsboro;
+    padding:5px;
+    margin:5px;
+    border:2px solid black;
 }
