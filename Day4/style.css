@@ -1,45 +1,46 @@
-/* MAIN CONTAINER */
-.main{
+/* BEFORE HAVING CUSTOM DISPLAY RULES */
+/* .main{
     width: 800px;
     margin: auto;
-}
+} */
 
 /* HEADER */
-header{
+/* header{
     background-color: #e6e6ff;
     padding: 10px;
     border: 2px solid black;
     text-align: center;
-}
+    position: relative;
+} */
 
 /* MAIN */
-main{
+/* main{
     padding: 20px;
     background-color: #f5f5f5;
     border: 2px solid #ccc;
-}
+} */
 
 /* SECTIONS */
-.normal,
+/* .normal,
 .block-level,
 .inline-elements{
     padding: 10px;
     margin-bottom: 10px;
-}
+} */
 
 /* COLORS */
-.normal{ background-color: #e8f5e9; }
+/* .normal{ background-color: #e8f5e9; }
 .block-level{ background-color: #fff3e0; border-left: 5px solid orange; }
-.inline-elements{ background-color: #e3f2fd; }
+.inline-elements{ background-color: #e3f2fd; } */
 
 /* INLINE highlight */
-.inline-elements span{
+/* .inline-elements span{
     background-color: yellow;
-}
+} */
 
 /* CARD SYSTEM */
-.card-one,
-.card-two,
+/* .card-one, */
+/* .card-two,
 .card-third{
     display: inline-block;
     width: 27%;
@@ -50,10 +51,10 @@ main{
     border: 1px solid black;
     box-sizing: border-box;
     font-size: 16px;
-}
+} */
 
 /* DISPLAY SECTION */
-.display-section{
+/* .display-section{
     background-color: #fce4ec;
     width: 100%;
     border: 2px solid black;
@@ -66,10 +67,10 @@ main{
     display: inline-block;
     margin: 10px 0;
 
-}
+} */
 
 /* DISPLAY TYPES */
-.inline{
+/* .inline{
     background-color: lightcyan;
     display: inline;
     border: 1px solid black;
@@ -100,4 +101,26 @@ main{
 }
 .hidden{
     display:none;
+} */
+
+/* AFTER TEMP REMOVING CUSTOM DISPLAY RULES */
+/* MAIN CONTAINER */
+.main{
+    width: 800px;
+    margin: auto;
+}
+
+/* HEADER */
+header{
+    background-color: #e6e6ff;
+    padding: 10px;
+    border: 2px solid black;
+    text-align: center;
+}
+
+/* MAIN */
+main{
+    padding: 20px;
+    background-color: #f5f5f5;
+    border: 2px solid #ccc;
 }
